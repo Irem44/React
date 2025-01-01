@@ -1,0 +1,69 @@
+.wordcreate {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  overflow: auto;
+}
+
+.header {
+  width: 400px;
+  height: 500px;
+  margin-left: 15rem;
+  padding: 1rem;
+  border: 2px solid chocolate;
+  border-radius: 10px;
+}
+.enterWord {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px dotted chocolate;
+}
+
+.add {
+  float: right;
+  padding: 10px;
+  background-color: chocolate;
+  border: 1px solid chocolate;
+  border-radius: 10px;
+  width: 90px;
+}
+.filter {
+  float: right;
+  padding: 10px;
+  background-color: chocolate;
+  border: 1px solid chocolate;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 90px;
+}
+.card {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 2px solid rgb(210, 105, 30);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.icons {
+  margin-left: auto;
+  font-size: 20px;
+  width: 50px;
+}
+
+input:focus {
+  outline: none; /* Focus border'ını kaldırır */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: rgba(210, 105, 30, 0.8);
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+}

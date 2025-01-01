@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gold;
+}
+
+.brand {
+  padding: 10px;
+}
+.cikis {
+  padding: 10px;
+}
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  width: 350px;
+}
+
+.auth input {
+  width: 100%;
+  margin: 15px 0;
+  padding: 8px;
+  outline: none;
+}
+.main-auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buton1 {
+  margin-right: 8px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(51, 51, 149);
+  color: #fff;
+  width: 80px;
+  cursor: pointer;
+}
+
+.buton2 {
+  margin-right: 8px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(59, 114, 3);
+  color: #fff;
+  width: 130px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.googlebuton {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

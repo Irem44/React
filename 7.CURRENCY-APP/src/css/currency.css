@@ -1,0 +1,47 @@
+.currency-div {
+  border: 1px solid black;
+  width: 500px;
+  height: 250px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.title {
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 90px;
+  height: 35px;
+  margin: 5px;
+}
+
+.select1,
+.select2 {
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+}
+
+.button {
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  float: right;
+}
+.button button {
+  padding: 8px;
+  width: 60px;
+  background-color: red;
+  color: #fff;
+}

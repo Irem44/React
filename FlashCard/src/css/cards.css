@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.cards {
+  height: 250px;
+  border: 3px dotted red;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}

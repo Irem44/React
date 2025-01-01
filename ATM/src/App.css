@@ -1,0 +1,98 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/*My Code*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #888;
+  opacity: 0.5rem;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.islemler {
+  background-color: brown;
+  padding: 0.2rem !important;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  background-color: #888;
+  border: 1px solid brown;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.btn:hover {
+  background-color: brown;
+}
+
+.container .inpt {
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+}
+
+.container .inpt input {
+  padding: 2rem;
+  width: 5rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+.bakiye {
+  margin-top: 1rem;
+  margin-right: 0;
+  margin-left: 3rem;
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}

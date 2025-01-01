@@ -1,0 +1,30 @@
+.list {
+  margin-top: 5px;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 100%;
+  height: 30px;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+}
+
+.delete {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 20px;
+  float: right;
+}
+
+.update {
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+}

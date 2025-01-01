@@ -1,0 +1,18 @@
+{
+  "customers": [
+    {
+      "id": "2",
+      "name": "İrem",
+      "surname": "Demir",
+      "password": "222",
+      "email": "ir@gmail.com"
+    },
+    {
+      "id": "b89a",
+      "name": "Elif",
+      "surname": "Can",
+      "password": "444",
+      "email": "eml@gmail.com"
+    }
+  ]
+}

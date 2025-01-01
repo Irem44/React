@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(28, 14, 14);
+  color: #fff;
+}
+
+.form {
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+}
+.main_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input:not(#term) {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 10px;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+}
+
+.kabul {
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: 100%;
+  background-color: gold;
+  border: 1px solid gold;
+  border-radius: 10px;
+  padding: 10px;
+}
+.errors {
+  font-size: 15px;
+  color: rgb(208, 55, 55);
+}

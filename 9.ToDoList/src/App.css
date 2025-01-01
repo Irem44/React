@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 400px !important;
+  height: 500px;
+  margin-top: 3rem;
+  margin-left: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+}
+.giris {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.ekle {
+  float: right;
+  padding: 10px;
+  width: 70px;
+  background-color: gold;
+  border: 1px solid gold;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.element {
+  margin-top: 1rem;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.icons {
+  margin-top: 10px;
+  font-size: 25px;
+}
